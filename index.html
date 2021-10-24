@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="heading-container">
+        <img style="width: 2rem; margin: 1rem" src="./images/list-alt-regular.svg" alt="todoApp" class="todoIcon" />
+        <h1>TO DO APP</h2>
+    </header>
+    <main class="main-container">
+      <div class="main-container__add">
+        <img src="./images/pen-nib-solid.svg" alt="writeTodo" />
+        <input id="input" type="text" name="addTodo" placeholder="add to do..."/>
+        <button type="submit" id="addBtn" style="width: 15%; margin: 0.5rem">
+          <img style="width: 40%" src="./images/plus-solid.svg" alt="add" />
+        </button>
+      </div>
+      <div class="main-container__todoList">
+        <h2>TO DO LIST</h2>
+        <ul>
+
+        </ul>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
